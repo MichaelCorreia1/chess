@@ -1,0 +1,43 @@
+body {
+    user-select: none;
+}
+
+#table {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.square {
+    display: flex;
+    flex: 1;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 1s;
+}
+
+.lb-num {
+    position: relative;
+    top: -18px;
+    left: -8px;
+}
+
+.lb-letter {
+    position: relative;
+    bottom: -18px;
+    right: -8px;
+}
+
+.piece {
+    position: absolute;
+    width: 50px;
+}
